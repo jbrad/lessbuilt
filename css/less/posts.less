@@ -1,0 +1,17 @@
+// posts.less
+
+.site-content {
+	article {
+		border-bottom: 4px double @border-color;
+	}
+}
+
+.entry-header {
+	.entry-title {
+		.links(@entry-title-color);
+	}
+}
+
+.entry-header, .entry-meta {
+	.links();
+}

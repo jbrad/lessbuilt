@@ -1,0 +1,15 @@
+// navigation.less
+
+.main-navigation {
+	li {
+		.links(@menu-items-color, @menu-items-color-hover);
+	}
+	.current-menu-item, 
+	.current-menu-ancestor, 
+	.current_page_item,
+	.current_page_ancestor {
+		a {
+			color: @menu-items-color-active;
+		}
+	}
+}
